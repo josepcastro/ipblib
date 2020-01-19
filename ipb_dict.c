@@ -10,11 +10,13 @@
 
 /** User dictionary definitions */
 #include "ipb_dict_usr.h"
-#include "utils.h"
 #include <string.h>
 
 /** Max number of dictionaries */
 #define MAX_NODES       (uint16_t)4U
+
+/** Byte to bits conversion */
+#define BYTE_TO_BITS 	(uint16_t)2U
 
 #if !defined(DICT_IDX_0_NODE) || !defined(DICT_IDX_0_DO_POINTER) || !defined(DICT_IDX_0_SIZE_POINTER) \
      || !defined(DICT_IDX_1_NODE) || !defined(DICT_IDX_1_DO_POINTER) || !defined(DICT_IDX_1_SIZE_POINTER) \

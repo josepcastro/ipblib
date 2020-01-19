@@ -19,7 +19,7 @@ TIpbDictEntry ptIpbNode5Dict[] =
 {
     { (uint16_t)0x0005U, &IpbReadReg5, &IpbWriteReg5 }
 };
-a
+
 uint16_t u16IpbNode5Size = sizeof(ptIpbNode5Dict);
 
 uint8_t IpbReadReg1(uint16_t* pu16Data, uint16_t* pu16DataSz)
